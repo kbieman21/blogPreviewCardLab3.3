@@ -1,0 +1,118 @@
+
+body{
+    
+    background-color: #F4D04E;
+    font-family: 'Outfit', sans-serif;
+   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card{ /* I tried to left margin the texts*/
+    height: 522px;
+    width: 384px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 16px;
+    padding: 24px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+.card-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2px;
+    align-self: flex-start;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.category {
+  display: inline-block;
+  background-color: #F4D04E;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  width: fit-content;
+}
+
+.publish-date {
+  font-size: 0.875rem;
+  color: #1A1A1A; /* gray-950 */
+  margin: 8px 0 0;
+  
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1A1A1A; /* gray-950 */
+  margin: 8px 0;
+}
+
+.card-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B7280; /* gray-500 */
+  line-height: 1.6;
+}
+
+.blogImage{
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+    
+}
+
+.blogImage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+  cursor: pointer;
+ 
+}
+
+.author {
+  display: flex;
+  align-items: left;
+  margin-top: 16px;
+  gap: 12px;
+  align-self: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 700;
+}
+
+.author-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
