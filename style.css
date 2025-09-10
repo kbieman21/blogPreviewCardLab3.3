@@ -1,5 +1,5 @@
 
-body{
+/* body{
     
     background-color: #F4D04E;
     font-family: 'Outfit', sans-serif;
@@ -12,8 +12,9 @@ main{
     align-items: center;
     height: 100vh;
 
-}
-.card{ /* I tried to left margin the texts*/
+} */
+ /* I tried to left margin the texts*/
+/* .card{ 
     height: 522px;
     width: 384px;
     background-color: white;
@@ -50,11 +51,11 @@ main{
   text-transform: uppercase;
   color: black;
   width: fit-content;
-}
+} */
 
-.publish-date {
+/* .publish-date {
   font-size: 0.875rem;
-  color: #1A1A1A; /* gray-950 */
+  color: #1A1A1A; 
   margin: 8px 0 0;
   
 }
@@ -62,14 +63,14 @@ main{
 .card-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1A1A1A; /* gray-950 */
+  color: #1A1A1A; 
   margin: 8px 0;
 }
 
 .card-description {
   font-size: 1rem;
   font-weight: 400;
-  color: #6B7280; /* gray-500 */
+  color: #6B7280; 
   line-height: 1.6;
 }
 
@@ -115,4 +116,4 @@ main{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-} 
+}  */
